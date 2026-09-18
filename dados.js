@@ -1,8 +1,8 @@
 /* Regras fixas da Calculadora de PLR. Os parâmetros semestrais ficam em dados.csv. */
 
 window.PLR_DATA = {
-  versao: "0.7.0",
-  atualizadoEm: "2026-09-17",
+  versao: "0.8.0",
+  atualizadoEm: "2026-09-18",
 
   app: {
     titulo: "Calculadora de PLR",
@@ -13,6 +13,14 @@ window.PLR_DATA = {
 
   regras: {
     percentualMaximoLucro: 11.25,
+    tetoAnualSalariosParadigma: 7,
+    conexaoDefaultPct: 100,
+    projecaoMultiplicador: {
+      metodo: "elasticidade_historica_lucro_per_capita",
+      elasticidade: 1.35,
+      amostra: "1S2025→2S2025 e 2S2025→1S2026",
+      observacao: "Coeficiente empírico para projeção, não fórmula normativa do Banco."
+    },
     faixasMetas: [
       { min: 100, pagamentoPct: 100, percentualLucro: 11.25 },
       { min: 99, pagamentoPct: 99, percentualLucro: 11.14 },
@@ -26,7 +34,8 @@ window.PLR_DATA = {
     ],
     contribuicaoSindical: {
       habilitadaPorPadrao: true,
-      aliquotaPct: 1.5
+      aliquotaPct: 1.5,
+      tetoPorPagamento: 274.37
     }
   },
 

@@ -1,0 +1,3 @@
+periodo,rotulo,status,referencia,lucro_base_bi,lucro_qualidade,lucro_origem,participantes,participantes_qualidade,participantes_origem,parcela_fixa_fenaban,percentual_fenaban,metas_pct,percentual_lucro,mult_faixa_0,mult_faixa_1,mult_faixa_2,mult_faixa_3,mult_nivel_085
+1S2026,1º semestre de 2026,oficial,,7.084477598,reconstruido_alta_confianca,"Retrocalculado pela parcela linear paga e público-alvo consolidado",87409,informado_exato,"Público-alvo consolidado do período",0,45,100,11.25,0,0.71,0.73,0.84,0.85
+2S2026,2º semestre de 2026 — projeção,projecao,1S2026,7.084477598,simulacao_provisoria,"Valor provisório até divulgação de nova base",87409,referencia_1S2026,"Usa provisoriamente o público-alvo do 1S2026",,45,100,11.25,,,,,
